@@ -13,6 +13,11 @@ jobs:
           platforms: |
             linux/amd64
             linux/arm64
+        - context: alpine
+          name: prebuild-alpine
+          platforms: |
+            linux/amd64
+            linux/arm64
     permissions:
       contents: read
       packages: write

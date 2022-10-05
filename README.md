@@ -6,15 +6,21 @@ Containers for prebuilding native Node.js modules.
 
 ### [Linux](../../pkgs/container/prebuild-linux) ([`linux/Dockerfile`](linux/Dockerfile))
 
+- **OS**: Ubuntu 18.04
+- **Node.js**: v16.x
+
 ```sh
 $ docker pull ghcr.io/holepunchto/prebuild-linux
 ```
 
-#### Components
+### [Alpine](../../pkgs/container/prebuild-alpine) ([`alpine/Dockerfile`](alpine/Dockerfile))
 
-- **OS**: Ubuntu 18.04
-- **git**: Most recent from <https://launchpad.net/~git-core/+archive/ubuntu/ppa>
-- **Node.js**: 16.x from <https://github.com/nodesource/distributions>
+- **OS**: Alpine Linux 3.16
+- **Node.js**: v16.x
+
+```sh
+$ docker pull ghcr.io/holepunchto/prebuild-alpine
+```
 
 ## License
 
